@@ -1,0 +1,38 @@
+{
+  "name": "ts-undefined-partial",
+  "version": "1.0.0",
+  "description": "TypeScript recursive conversion between optional (partial) and undefined properties.",
+  "homepage": "https://github.com/dimikot/ts-undefined-partial#readme",
+  "author": "Dimi Kot",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimikot/ts-undefined-partial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dimikot/ts-undefined-partial/issues"
+  },
+  "keywords": [
+    "typescript",
+    "undefined",
+    "optional",
+    "partial",
+    "type",
+    "generics"
+  ],
+  "main": "./dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "clean": "rm -rf dist node_modules yarn.lock package-lock.json"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.1",
+    "typescript": "^4.1.0"
+  },
+  "dependencies": {}
+}
