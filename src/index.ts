@@ -61,6 +61,7 @@ type FunctionPropertyNames<T> = T extends object
       }[keyof T]
     : never
   : never;
+
 /**
  * All of the keys of T to which U can be assigned.
  */
