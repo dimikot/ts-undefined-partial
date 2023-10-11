@@ -1,6 +1,6 @@
 {
   "name": "ts-undefined-partial",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "TypeScript recursive conversion between optional (partial) and undefined properties.",
   "homepage": "https://github.com/dimikot/ts-undefined-partial#readme",
   "author": "Dimi Kot",
@@ -26,7 +26,8 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "test": "jest",
-    "clean": "rm -rf dist node_modules yarn.lock package-lock.json"
+    "clean": "rm -rf dist node_modules yarn.lock package-lock.json",
+    "deploy": "npm run build && npm test && npm publish"
   },
   "devDependencies": {
     "@types/jest": "^26.0.3",
